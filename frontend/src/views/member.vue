@@ -8,44 +8,16 @@
             <v-col class="col">
               <v-img src="@/assets/python.png" class="img" @click="show = 1" />
               <transition name="slide">
-                <div v-if="show === 1" class="box1">
-                  <v-row no-gutters>
-                    <v-col class="memberBox">
-                      <h6>경완</h6>
-                      <br/>
-                      <h6>프론트 일부분과 파이썬으로 이미지 분석하는 코드를 만들었습니다.
-                        이번에 flask를 사용하면서 많은 어려움이 있었지만 다행히 완성되어서 기쁩니다.</h6>
-                    </v-col>
-                  </v-row>
-                </div>
               </transition>
             </v-col>
             <v-col>
               <v-img src="@/assets/vue.png" class="img" @click="show = 2" />
               <transition name="slide">
-                <div v-if="show === 2" class="box2">
-                  <v-row no-gutters>
-                    <v-col class="memberBox">
-                      <h6>문종후</h6>
-                      <br/>
-                      <h6>프론트를 전담하였고 자잘한 기능구현들을 했습니다. 많이 부족한 실력이였지만 프로젝트를 함으로써 프론트에 대한 이해도가 많이 늘었고 흥미로운 과제였던것 같습니다.</h6>
-                    </v-col>
-                  </v-row>
-                </div>
               </transition>
             </v-col>
             <v-col>
               <v-img src="@/assets/java.svg" class="img" @click="show = 3" />
               <transition name="slide">
-                <div v-if="show === 3" class="box3">
-                  <v-row no-gutters>
-                    <v-col class="memberBox">
-                      <h6>이승준</h6>
-                      <br/>
-                      <h6>이 전에 배웠던 코드들을 재구성 하여 저희들만의 웹사이트에 이식 시킨다는것이 좋은 경험와 챌린지가 되었습니다.</h6>
-                    </v-col>
-                  </v-row>
-                </div>
               </transition>
             </v-col>
           </v-row>
